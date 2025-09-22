@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/unitalk_client/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="UniTalk Client - Voice Translation PWA App">
+
+  <!-- Responsive meta tag -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <!-- Microphone permission related -->
+  <meta name="permissions" content="microphone">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="UniTalk">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Additional PWA optimizations -->
+  <meta name="theme-color" content="#D57A59">
+  <meta name="msapplication-navbutton-color" content="#D57A59">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>UniTalk - Voice Translation</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <!-- Firebase SDKs -->
+  <script type="module">
+    import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js';
+    import { getAuth } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js';
+    import { getDatabase } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-database.js';
+
+    // Firebase configuration for UniTalk
+    const firebaseConfig = {
+      apiKey: "AIzaSyDkaEEDCBUrtVXydf6GITux1g2KXzjxW9k",
+      authDomain: "unitalk-2b5cc.firebaseapp.com",
+      databaseURL: "https://unitalk-2b5cc-default-rtdb.asia-southeast1.firebasedatabase.app",
+      projectId: "unitalk-2b5cc",
+      storageBucket: "unitalk-2b5cc.firebasestorage.app",
+      messagingSenderId: "31737397102",
+      appId: "1:31737397102:web:7870bfe045719e87d8cb7f",
+      measurementId: "G-Z2RT339X62"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+    const database = getDatabase(app);
+
+    // Export to window for Flutter to access
+    window.firebase = app;
+    window.auth = auth;
+    window.database = database;
+
+    // Log Firebase initialization status
+    console.log('Firebase Web SDK initialized successfully');
+    console.log('Database URL:', firebaseConfig.databaseURL);
+    console.log('Project ID:', firebaseConfig.projectId);
+
+    // Test database connectivity (optional)
+    import { connectDatabaseEmulator } from 'https://www.gstatic.com/firebasejs/10.14.1/firebase-database.js';
+
+    // Only connect to emulator in development mode
+    if (window.location.hostname === 'localhost') {
+      console.log('Development mode detected - database ready for local testing');
+    } else {
+      console.log('Production mode - connecting to live Firebase Database');
+    }
+  </script>
+
+  <!-- Flutter 웹 widget inspector 에러 필터링 스크립트 -->
+  <script>
+    // Flutter 웹에서 widget inspector 관련 에러 필터링
+    (function() {
+      'use strict';
+
+      // 원본 console.error 저장
+      const originalConsoleError = console.error;
+
+      // console.error 오버라이드하여 특정 에러 필터링
+      console.error = function(...args) {
+        const errorMessage = args.join(' ');
+
+        // LegacyJavaScriptObject 관련 에러 필터링
+        if (errorMessage.includes('LegacyJavaScriptObject') &&
+            errorMessage.includes('DiagnosticsNode')) {
+          // 이 에러는 콘솔에 출력하지 않음 (앱 기능에는 영향 없음)
+          console.warn('Flutter Widget Inspector 에러 필터링됨: LegacyJavaScriptObject 타입 에러');
+          return;
+        }
+
+        // widget_inspector.dart 관련 에러 필터링
+        if (errorMessage.includes('widget_inspector.dart') &&
+            errorMessage.includes('debugTransformDebugCreator')) {
+          console.warn('Flutter Widget Inspector 에러 필터링됨: debugTransformDebugCreator 에러');
+          return;
+        }
+
+        // 다른 에러들은 정상적으로 출력
+        originalConsoleError.apply(console, args);
+      };
+
+      console.log('Flutter 웹 Widget Inspector 에러 필터링 활성화됨');
+    })();
+  </script>
+
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

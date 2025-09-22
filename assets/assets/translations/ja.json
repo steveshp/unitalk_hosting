@@ -1,0 +1,41 @@
+{
+  "app": {
+    "title": "UniTalk Client"
+  },
+  "screen": {
+    "voice_recognition_title": "音声認識・翻訳",
+    "text_display_subtitle": "テキスト表示",
+    "language_selector_title": "言語選択",
+    "mic_prompt": "マイクをタップして話してください",
+    "mic_permission_message": "ブラウザでマイクへのアクセスを許可してください"
+  },
+  "status": {
+    "waiting": "待機中...",
+    "listening": "聞いています...",
+    "processing": "処理中...",
+    "received": "受信済み"
+  },
+  "errors": {
+    "speech_recognition_error": "音声認識エラー",
+    "speech_recognition_disabled": "音声認識が利用できません。ブラウザでマイクへのアクセスを許可してください。",
+    "speech_recognition_unavailable": "音声認識が無効になっています。ブラウザでマイクへのアクセスを許可してください。",
+    "speech_start_failed": "音声認識の開始に失敗しました"
+  },
+  "languages": {
+    "korean": "韓国語",
+    "english": "英語",
+    "japanese": "日本語",
+    "chinese": "中国語",
+    "spanish": "スペイン語",
+    "french": "フランス語",
+    "german": "ドイツ語",
+    "italian": "イタリア語",
+    "portuguese": "ポルトガル語",
+    "russian": "ロシア語",
+    "thai": "タイ語",
+    "indonesian": "インドネシア語",
+    "malay": "マレー語",
+    "filipino": "フィリピン語",
+    "vietnamese": "ベトナム語"
+  }
+}

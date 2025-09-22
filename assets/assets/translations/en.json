@@ -1,0 +1,41 @@
+{
+  "app": {
+    "title": "UniTalk Client"
+  },
+  "screen": {
+    "voice_recognition_title": "Voice Recognition & Translation",
+    "text_display_subtitle": "Text Display",
+    "language_selector_title": "Select Language",
+    "mic_prompt": "Tap the microphone to speak",
+    "mic_permission_message": "Please allow microphone access in your browser"
+  },
+  "status": {
+    "waiting": "Waiting...",
+    "listening": "Listening...",
+    "processing": "Processing...",
+    "received": "RECEIVED"
+  },
+  "errors": {
+    "speech_recognition_error": "Speech Recognition Error",
+    "speech_recognition_disabled": "Speech recognition is not available. Please allow microphone access in your browser.",
+    "speech_recognition_unavailable": "Speech recognition is disabled. Please allow microphone access in your browser.",
+    "speech_start_failed": "Failed to start speech recognition"
+  },
+  "languages": {
+    "korean": "Korean",
+    "english": "English",
+    "japanese": "Japanese",
+    "chinese": "Chinese",
+    "spanish": "Spanish",
+    "french": "French",
+    "german": "German",
+    "italian": "Italian",
+    "portuguese": "Portuguese",
+    "russian": "Russian",
+    "thai": "Thai",
+    "indonesian": "Indonesian",
+    "malay": "Malay",
+    "filipino": "Filipino",
+    "vietnamese": "Vietnamese"
+  }
+}
