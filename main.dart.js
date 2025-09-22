@@ -73787,7 +73787,7 @@ return A.F(o.ax.co(0),$async$tT)
 case 6:m=o.d
 m.ov()
 o.au(new A.aoE(o))
-m=m.ch
+m=m.ay
 if(m.gm(0).length!==0){A.cr("\ucd5c\uc885 \uc778\uc2dd \ud14d\uc2a4\ud2b8: "+m.gm(0),"UniTalk_STT")
 o.tN(m.gm(0))
 o.a3N(m.gm(0))}A.cr("\uc74c\uc131 \uc778\uc2dd \uc911\uc9c0 \uc644\ub8cc","UniTalk_STT")
@@ -74118,23 +74118,22 @@ if(!i.ay)B.b.I(s,A.c([B.eu,A.cj(A.eo("screen.mic_permission_message"),j,A.cx(j,j
 return A.v3(A.fU(s,B.bb,B.h3,B.a2),j,j)}r=new A.x9(r,r.$ti.i("x9<V.E>"))
 q=t.l7
 r=A.a4(r.gfw(r).eA(0,new A.aol(i,k.b),q),q)
-q=s.ch
-if(q.gm(0).length!==0||s.cx.gm(0)){p=t.E
-o=A.c([],p)
-if(q.gm(0).length!==0){n=A.c([],t.VO)
-m=s.ay
-if(m.gm(0).length!==0){l=m.gm(0)
-n.push(A.mb(j,j,A.cx(j,j,s.db.gm(0)?B.j.c_(0.94):B.iq.c_(0.94),j,j,j,j,j,j,j,j,20,B.mC,j,B.K,j,1.32,!0,j,j,j,j,j,j,j,j).a6J(B.cK),l))}if(m.gm(0).length!==0&&s.ax.gm(0).length!==0)n.push(B.a_8)
+if(s.ch.gm(0).length!==0||s.cx.gm(0)){q=t.E
+p=A.c([],q)
+o=s.ay
+if(o.gm(0).length!==0||s.ax.gm(0).length!==0){n=A.c([],t.VO)
+if(o.gm(0).length!==0){m=o.gm(0)
+n.push(A.mb(j,j,A.cx(j,j,s.db.gm(0)?B.j.c_(0.94):B.iq.c_(0.94),j,j,j,j,j,j,j,j,20,B.mC,j,B.K,j,1.32,!0,j,j,j,j,j,j,j,j).a6J(B.cK),m))}if(o.gm(0).length!==0&&s.ax.gm(0).length!==0)n.push(B.a_8)
 m=s.ax
 if(m.gm(0).length!==0){m=m.gm(0)
-n.push(A.mb(j,j,A.cx(j,j,s.db.gm(0)?B.lR:B.cI,j,j,j,j,j,j,j,j,16,B.mD,j,B.o,j,j,!0,j,j,j,j,j,j,j,j),m))}o.push(new A.cB(B.iG,A.ada(j,j,j,B.c3,j,j,!0,j,A.mb(n,j,j,j),B.aN,j,j,B.bK,B.aO),j))}if(s.cx.gm(0)){n=A.c([],p)
-if(q.gm(0).length!==0)n.push(B.eu)
-q=A.c([A.m6(new A.v7(2,j,j,j,new A.uA(B.cI,t.ZU),j,j,j),16,16),B.Zg,A.cj(A.eo("status.listening"),j,A.cx(j,j,B.cI,j,j,j,j,j,j,j,j,16,j,j,B.cJ,j,j,!0,j,j,j,j,j,j,j,j),j),B.kz],p)
+n.push(A.mb(j,j,A.cx(j,j,s.db.gm(0)?B.lR:B.cI,j,j,j,j,j,j,j,j,16,B.mD,j,B.o,j,j,!0,j,j,j,j,j,j,j,j),m))}p.push(new A.cB(B.iG,A.ada(j,j,j,B.c3,j,j,!0,j,A.mb(n,j,j,j),B.aN,j,j,B.bK,B.aO),j))}if(s.cx.gm(0)){n=A.c([],q)
+if(o.gm(0).length!==0||s.ax.gm(0).length!==0)n.push(B.eu)
+o=A.c([A.m6(new A.v7(2,j,j,j,new A.uA(B.cI,t.ZU),j,j,j),16,16),B.Zg,A.cj(A.eo("status.listening"),j,A.cx(j,j,B.cI,j,j,j,j,j,j,j,j,16,j,j,B.cJ,j,j,!0,j,j,j,j,j,j,j,j),j),B.kz],q)
 s=s.cy
 if(s.gm(0)>0){m=B.ec.c_(0.2)
 l=A.hq(3)
-q.push(A.fV(j,new A.IJ(B.d.eY(s.gm(0)/10,0,1),B.l7,A.fV(j,j,B.A,j,new A.da(B.cI,j,j,A.hq(3),j,j,B.as),j,j,j,j,j,j,j),j),B.A,j,new A.da(m,j,j,l,j,j,B.as),j,6,j,j,j,j,40))}n.push(new A.cB(B.iG,A.fU(A.c([A.kz(q,B.U,B.a2)],p),B.aB,B.U,B.a2),j))
-B.b.I(o,n)}r.push(A.fU(o,B.aB,B.U,B.a2))}r.push(B.kx)
+o.push(A.fV(j,new A.IJ(B.d.eY(s.gm(0)/10,0,1),B.l7,A.fV(j,j,B.A,j,new A.da(B.cI,j,j,A.hq(3),j,j,B.as),j,j,j,j,j,j,j),j),B.A,j,new A.da(m,j,j,l,j,j,B.as),j,6,j,j,j,j,40))}n.push(new A.cB(B.iG,A.fU(A.c([A.kz(o,B.U,B.a2)],q),B.aB,B.U,B.a2),j))
+B.b.I(p,n)}r.push(A.fU(p,B.aB,B.U,B.a2))}r.push(B.kx)
 return A.ayG(A.fU(r,B.bb,B.U,B.a2),i.y,B.lc)},
 $S:66}
 A.aol.prototype={
