@@ -13,7 +13,8 @@
     "waiting": "Waiting...",
     "listening": "Listening...",
     "processing": "Processing...",
-    "received": "RECEIVED"
+    "received": "RECEIVED",
+    "translating": "Translating..."
   },
   "errors": {
     "speech_recognition_error": "Speech Recognition Error",

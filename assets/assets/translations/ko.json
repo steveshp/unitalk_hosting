@@ -13,7 +13,8 @@
     "waiting": "Waiting...",
     "listening": "Listening...",
     "processing": "Processing...",
-    "received": "RECEIVED"
+    "received": "RECEIVED",
+    "translating": "번역 중..."
   },
   "errors": {
     "speech_recognition_error": "음성 인식 오류",

@@ -13,7 +13,8 @@
     "waiting": "待機中...",
     "listening": "聞いています...",
     "processing": "処理中...",
-    "received": "受信済み"
+    "received": "受信済み",
+    "translating": "翻訳中..."
   },
   "errors": {
     "speech_recognition_error": "音声認識エラー",
