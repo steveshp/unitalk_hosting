@@ -16,6 +16,9 @@
     "received": "RECEIVED",
     "translating": "Translating..."
   },
+  "auth": {
+    "qr_code_login_success": "Automatically logged in via QR code"
+  },
   "errors": {
     "speech_recognition_error": "Speech Recognition Error",
     "speech_recognition_disabled": "Speech recognition is not available. Please allow microphone access in your browser.",
