@@ -74007,8 +74007,9 @@ $.aa()
 i=$.bu
 if(i==null)i=$.bu=B.X
 m=i.dT(0,null,t.KV)
+m.toString
 i=t.N
-l=A.ap(["lang",a.toLowerCase()],i,i)
+l=A.ap(["lang",a.toLowerCase(),"device_name","UNI_CL","text",n.d.ay.gm(0)],i,i)
 i=n.f
 i===$&&A.a()
 g=g.as.gea()
