@@ -73965,7 +73965,7 @@ if(i==null)i=$.bu=B.X
 m=i.dT(0,null,t.KV)
 m.toString
 i=t.N
-l=A.ap(["text",a,"device_name","UNITALK 001","lang",n.Q.b.toLowerCase()],i,i)
+l=A.ap(["text",a,"device_name","UNI_CL","lang",n.Q.b.toLowerCase()],i,i)
 i=n.f
 i===$&&A.a()
 g=g.as.gea()
@@ -74471,7 +74471,7 @@ r.oB()
 s=r.as
 s.sm(0,"client")
 $.aa()
-r.ay.sm(0,A.ap(["deviceId",s.gm(0),"deviceName","UNITALK 001","deviceType","web","platform","web","userAgent",r.Z2(),"screenResolution",r.YY(),"language",r.YM(),"timezone",r.Z1(),"createdAt",new A.cL(Date.now(),0,!1).ad5()],t.N,t.z))},
+r.ay.sm(0,A.ap(["deviceId",s.gm(0),"deviceName","UNI_CL","deviceType","web","platform","web","userAgent",r.Z2(),"screenResolution",r.YY(),"language",r.YM(),"timezone",r.Z1(),"createdAt",new A.cL(Date.now(),0,!1).ad5()],t.N,t.z))},
 Z2(){var s,r,q
 try{r=window.navigator.userAgent
 r.toString
