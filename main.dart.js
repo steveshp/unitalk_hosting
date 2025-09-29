@@ -73853,7 +73853,7 @@ A.apK.prototype={
 $0(){var s=0,r=A.B(t.Hq),q,p,o,n
 var $async$$0=A.v(function(a,b){if(a===1)return A.y(b,r)
 while(true)switch(s){case 0:o=t.Wo
-n=new A.t2(A.kE(!1),A.kE(!1),A.m_("ko"),A.adG(0.5),A.adG(1),A.adG(1),new A.eh(o),new A.eh(o),!1,!1)
+n=new A.t2(A.kE(!1),A.kE(!1),A.m_("ko"),A.adG(0.8),A.adG(1),A.adG(1),new A.eh(o),new A.eh(o),!1,!1)
 n.kJ()
 p=n
 $.a9()
