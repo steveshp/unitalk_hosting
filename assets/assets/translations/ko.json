@@ -41,5 +41,11 @@
     "malay": "Malay",
     "filipino": "Filipino",
     "vietnamese": "Vietnamese"
+  },
+  "in_app_browser_warning": {
+    "title": "⚠️ 인앱 브라우저 감지",
+    "message": "{browser}에서는 마이크 권한이 매번 요청됩니다. Chrome에서 열거나 홈 화면에 추가해주세요.",
+    "open_chrome": "Chrome에서 열기",
+    "dismiss": "닫기"
   }
 }

@@ -41,5 +41,11 @@
     "malay": "Malay",
     "filipino": "Filipino",
     "vietnamese": "Vietnamese"
+  },
+  "in_app_browser_warning": {
+    "title": "⚠️ In-App Browser Detected",
+    "message": "Microphone permission is requested every time in {browser}. Please open in Chrome or add to home screen.",
+    "open_chrome": "Open in Chrome",
+    "dismiss": "Dismiss"
   }
 }

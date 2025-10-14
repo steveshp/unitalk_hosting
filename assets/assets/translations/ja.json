@@ -38,5 +38,11 @@
     "malay": "マレー語",
     "filipino": "フィリピン語",
     "vietnamese": "ベトナム語"
+  },
+  "in_app_browser_warning": {
+    "title": "⚠️ アプリ内ブラウザ検出",
+    "message": "{browser}ではマイク権限が毎回要求されます。Chromeで開くか、ホーム画面に追加してください。",
+    "open_chrome": "Chromeで開く",
+    "dismiss": "閉じる"
   }
 }
