@@ -307,7 +307,7 @@ if(b==null)b=B.kB
 s=new v.G.window.flutterCanvasKit.PictureRecorder()
 a.a=s
 return new A.vT(s.beginRecording(A.cL(b),!0))},
-aq(){return $.bg.bh()},
+ar(){return $.bg.bh()},
 aUe(a){var s=$.aI0()[a.a]
 return s},
 aFb(a){var s,r,q,p=new Float32Array(16)
@@ -6960,7 +6960,7 @@ _.f=f
 _.r=g
 _.Q=_.z=_.y=_.x=_.w=$},
 x1:function x1(a){this.a=a},
-ar(a,b){},
+aq(a,b){},
 mr:function mr(){},
 aPd(a){var s=window
 s.toString
@@ -24405,10 +24405,10 @@ n=o.gxx().h(0,"e")
 m=o.gxx().h(0,"e1")
 if(n!=null&&m!=null){$.lp=B.P.d7(0,B.lN.d5(n))
 $.asy=B.P.d7(0,B.lN.d5(m))
-A.ar("URL \ud30c\ub77c\ubbf8\ud130\uc5d0\uc11c \ub85c\uadf8\uc778 \uc815\ubcf4 \uac10\uc9c0\ub428: "+A.i($.lp),"UniTalk_Auth")
+A.aq("URL \ud30c\ub77c\ubbf8\ud130\uc5d0\uc11c \ub85c\uadf8\uc778 \uc815\ubcf4 \uac10\uc9c0\ub428: "+A.i($.lp),"UniTalk_Auth")
 j=o.gxx()
-if(j.gbe(j))A.ar("\ubcf4\uc548: URL \ud30c\ub77c\ubbf8\ud130 \ud074\ub9b0\uc5c5 \uad8c\uc7a5 - "+J.bR(o).split("?")[0],"UniTalk_Auth")}}catch(a1){l=A.U(a1)
-A.ar("URL \ud30c\ub77c\ubbf8\ud130 \ud30c\uc2f1 \uc2e4\ud328: "+A.i(l),"UniTalk_Auth")
+if(j.gbe(j))A.aq("\ubcf4\uc548: URL \ud30c\ub77c\ubbf8\ud130 \ud074\ub9b0\uc5c5 \uad8c\uc7a5 - "+J.bR(o).split("?")[0],"UniTalk_Auth")}}catch(a1){l=A.U(a1)
+A.aq("URL \ud30c\ub77c\ubbf8\ud130 \ud30c\uc2f1 \uc2e4\ud328: "+A.i(l),"UniTalk_Auth")
 $.asy=$.lp=null}q=4
 s=7
 return A.q(A.a4P(A.aJS()),$async$Fg)
@@ -24733,7 +24733,7 @@ _.cy=g
 _.db=h
 _.dy=_.dx=""
 _.fr=i
-_.fx=!1
+_.fy=_.fx=!1
 _.hw$=j
 _.hs$=k
 _.eB$=l
@@ -25210,7 +25210,7 @@ r=r==null?null:r.b
 if(r==null)r=1
 return new A.xA(s,r,A.av9(a),A.d7(a),null,A.f3())},
 aEw(a,b){if(!b)$.a8()
-if(b)A.ar(a,"GETX")},
+if(b)A.aq(a,"GETX")},
 ob(a,b,c,d){return A.aLw(a,b,!0,d,d)},
 aLw(a,b,c,d,e){var s=0,r=A.z(e),q,p
 var $async$ob=A.t(function(f,g){if(f===1)return A.w(g,r)
@@ -77491,20 +77491,20 @@ a3S(){this.ao(new A.ar9(this))},
 ua(){var s=0,r=A.z(t.H),q=1,p=[],o=this,n,m,l,k
 var $async$ua=A.t(function(a,b){if(a===1){p.push(b)
 s=q}for(;;)switch(s){case 0:q=3
-A.ar("STT \ucd08\uae30\ud654 \uc2dc\uc791","UniTalk_STT")
+A.aq("STT \ucd08\uae30\ud654 \uc2dc\uc791","UniTalk_STT")
 s=6
 return A.q(o.ay.wG(0,new A.ar6(o),new A.ar7(o),A.c([$.aGm()],t.nU)),$async$ua)
 case 6:m=b
 o.ch=m
 if(!m&&o.c!=null)o.c.al(t.Pu).f.pi(A.Az(null,null,null,B.kj,null,B.ab,null,A.ce(A.eA("errors.speech_recognition_disabled"),null,null,null),null,A.cu(0,0,5),null,null,null,null,null,null,null,null,null,null))
-A.ar("STT \ucd08\uae30\ud654 \uc644\ub8cc: "+o.ch,"UniTalk_STT")
+A.aq("STT \ucd08\uae30\ud654 \uc644\ub8cc: "+o.ch,"UniTalk_STT")
 q=1
 s=5
 break
 case 3:q=2
 k=p.pop()
 n=A.U(k)
-A.ar("STT \ucd08\uae30\ud654 \uc2e4\ud328: "+A.i(n),"UniTalk_STT")
+A.aq("STT \ucd08\uae30\ud654 \uc2e4\ud328: "+A.i(n),"UniTalk_STT")
 o.ao(new A.ar8(o,n))
 s=5
 break
@@ -77517,7 +77517,7 @@ a7G(){if(this.d.cx.gl(0))this.uN()
 else this.uK()},
 uK(){var s=0,r=A.z(t.H),q,p=2,o=[],n=this,m,l,k,j,i
 var $async$uK=A.t(function(a,b){if(a===1){o.push(b)
-s=p}for(;;)switch(s){case 0:if(!n.ch){A.ar("STT\uac00 \ube44\ud65c\uc131\ud654\ub418\uc5b4 \uc788\uc2b5\ub2c8\ub2e4.","UniTalk_STT")
+s=p}for(;;)switch(s){case 0:if(!n.ch){A.aq("STT\uac00 \ube44\ud65c\uc131\ud654\ub418\uc5b4 \uc788\uc2b5\ub2c8\ub2e4.","UniTalk_STT")
 l=n.c
 if(l!=null)l.al(t.Pu).f.pi(A.Az(null,null,null,B.kj,null,B.ab,null,A.ce(A.eA("errors.speech_recognition_unavailable"),null,null,null),null,A.cu(0,0,3),null,null,null,null,null,null,null,null,null,null))
 s=1
@@ -77528,7 +77528,7 @@ l.cx.sl(0,!0)
 l.ax.sl(0,"")
 n.ao(new A.ari(n))
 l=n.as.b
-A.ar("\uc74c\uc131 \uc778\uc2dd \uc2dc\uc791: "+l,"UniTalk_STT")
+A.aq("\uc74c\uc131 \uc778\uc2dd \uc2dc\uc791: "+l,"UniTalk_STT")
 k=t.N
 l=A.ai(["ko","ko-KR","en","en-US","ja","ja-JP","zh-cn","zh-CN","zh-tw","zh-TW","es","es-ES","fr","fr-FR","de","de-DE","it","it-IT","pt","pt-PT","ru","ru-RU"],k,k).h(0,l.toLowerCase())
 if(l==null)l="ko-KR"
@@ -77540,7 +77540,7 @@ break
 case 4:p=3
 i=o.pop()
 m=A.U(i)
-A.ar("\uc74c\uc131 \uc778\uc2dd \uc2dc\uc791 \uc2e4\ud328: "+A.i(m),"UniTalk_STT")
+A.aq("\uc74c\uc131 \uc778\uc2dd \uc2dc\uc791 \uc2e4\ud328: "+A.i(m),"UniTalk_STT")
 n.d.pq()
 n.ao(new A.ark(n,m))
 l=n.c
@@ -77555,19 +77555,19 @@ return A.y($async$uK,r)},
 uN(){var s=0,r=A.z(t.H),q=1,p=[],o=this,n,m,l
 var $async$uN=A.t(function(a,b){if(a===1){p.push(b)
 s=q}for(;;)switch(s){case 0:q=3
-A.ar("\uc74c\uc131 \uc778\uc2dd \uc911\uc9c0 \uc694\uccad","UniTalk_STT")
+A.aq("\uc74c\uc131 \uc778\uc2dd \uc911\uc9c0 \uc694\uccad","UniTalk_STT")
 s=6
 return A.q(o.ay.bj(0),$async$uN)
 case 6:o.d.pq()
 o.ao(new A.arl(o))
-A.ar("\uc74c\uc131 \uc778\uc2dd \uc911\uc9c0 \uc644\ub8cc","UniTalk_STT")
+A.aq("\uc74c\uc131 \uc778\uc2dd \uc911\uc9c0 \uc644\ub8cc","UniTalk_STT")
 q=1
 s=5
 break
 case 3:q=2
 l=p.pop()
 n=A.U(l)
-A.ar("\uc74c\uc131 \uc778\uc2dd \uc911\uc9c0 \uc2e4\ud328: "+A.i(n),"UniTalk_STT")
+A.aq("\uc74c\uc131 \uc778\uc2dd \uc911\uc9c0 \uc2e4\ud328: "+A.i(n),"UniTalk_STT")
 o.d.pq()
 o.ao(new A.arm(o,n))
 s=5
@@ -77578,7 +77578,7 @@ case 5:return A.x(null,r)
 case 1:return A.w(p.at(-1),r)}})
 return A.y($async$uN,r)},
 a51(a){var s,r,q=this,p="UniTalk_STT",o=a.a,n=o.length!==0?B.b.gI(o).a:"",m=a.b
-A.ar('\uc74c\uc131 \uc778\uc2dd \uacb0\uacfc: "'+n+'" (final: '+m+")",p)
+A.aq('\uc74c\uc131 \uc778\uc2dd \uacb0\uacfc: "'+n+'" (final: '+m+")",p)
 n=q.d
 s=o.length!==0?B.b.gI(o).a:""
 r=n.ax
@@ -77588,16 +77588,16 @@ n.uS()}else{r.sl(0,s)
 n.uS()}if(m)n=(o.length!==0?B.b.gI(o).a:"").length!==0
 else n=!1
 if(n){n=q.cx
-if(n!==(o.length!==0?B.b.gI(o).a:"")){A.ar("\ucd5c\uc885 \ud14d\uc2a4\ud2b8: "+(o.length!==0?B.b.gI(o).a:""),p)
+if(n!==(o.length!==0?B.b.gI(o).a:"")){A.aq("\ucd5c\uc885 \ud14d\uc2a4\ud2b8: "+(o.length!==0?B.b.gI(o).a:""),p)
 q.cx=o.length!==0?B.b.gI(o).a:""
 q.uI(o.length!==0?B.b.gI(o).a:"")
-q.a7c(o.length!==0?B.b.gI(o).a:"")}else A.ar("\uc911\ubcf5 \ud14d\uc2a4\ud2b8 \uac10\uc9c0, RTDB \uc800\uc7a5 \uc0dd\ub7b5: "+(o.length!==0?B.b.gI(o).a:""),p)}},
+q.a7c(o.length!==0?B.b.gI(o).a:"")}else A.aq("\uc911\ubcf5 \ud14d\uc2a4\ud2b8 \uac10\uc9c0, RTDB \uc800\uc7a5 \uc0dd\ub7b5: "+(o.length!==0?B.b.gI(o).a:""),p)}},
 uI(a){return this.a6x(a)},
 a6x(a){var s=0,r=A.z(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f
 var $async$uI=A.t(function(b,c){if(b===1){o.push(c)
 s=p}for(;;)switch(s){case 0:g=n.e
 g===$&&A.a()
-if(g.as.gew()==null){A.ar("\ub85c\uadf8\uc778\ub418\uc9c0 \uc54a\uc544 RTDB \uc800\uc7a5 \uc0dd\ub7b5","UniTalk_RTDB")
+if(g.as.gew()==null){A.aq("\ub85c\uadf8\uc778\ub418\uc9c0 \uc54a\uc544 RTDB \uc800\uc7a5 \uc0dd\ub7b5","UniTalk_RTDB")
 s=1
 break}p=4
 $.a8()
@@ -77615,15 +77615,15 @@ g.toString
 s=7
 return A.q(i.pa(m.as.gl(0),l,g),$async$uI)
 case 7:k=c
-if(k)A.ar("RTDB\uc5d0 \uc74c\uc131 \ub370\uc774\ud130 \uc800\uc7a5 \uc644\ub8cc: "+a,"UniTalk_RTDB")
-else A.ar("RTDB \uc74c\uc131 \ub370\uc774\ud130 \uc800\uc7a5 \uc2e4\ud328","UniTalk_RTDB")
+if(k)A.aq("RTDB\uc5d0 \uc74c\uc131 \ub370\uc774\ud130 \uc800\uc7a5 \uc644\ub8cc: "+a,"UniTalk_RTDB")
+else A.aq("RTDB \uc74c\uc131 \ub370\uc774\ud130 \uc800\uc7a5 \uc2e4\ud328","UniTalk_RTDB")
 p=2
 s=6
 break
 case 4:p=3
 f=o.pop()
 j=A.U(f)
-A.ar("RTDB \uc800\uc7a5 \uc911 \uc5d0\ub7ec: "+A.i(j),"UniTalk_RTDB")
+A.aq("RTDB \uc800\uc7a5 \uc911 \uc5d0\ub7ec: "+A.i(j),"UniTalk_RTDB")
 s=6
 break
 case 3:s=2
@@ -77641,7 +77641,7 @@ a84(a){var s=0,r=A.z(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f
 var $async$uT=A.t(function(b,c){if(b===1){o.push(c)
 s=p}for(;;)switch(s){case 0:g=n.e
 g===$&&A.a()
-if(g.as.gew()==null){A.ar("\ub85c\uadf8\uc778\ub418\uc9c0 \uc54a\uc544 \uc5b8\uc5b4 \uc5c5\ub370\uc774\ud2b8 \uc0dd\ub7b5","UniTalk_RTDB")
+if(g.as.gew()==null){A.aq("\ub85c\uadf8\uc778\ub418\uc9c0 \uc54a\uc544 \uc5b8\uc5b4 \uc5c5\ub370\uc774\ud2b8 \uc0dd\ub7b5","UniTalk_RTDB")
 s=1
 break}p=4
 $.a8()
@@ -77659,15 +77659,15 @@ g.toString
 s=7
 return A.q(i.pa(m.as.gl(0),l,g),$async$uT)
 case 7:k=c
-if(k)A.ar("RTDB\uc5d0 \uc5b8\uc5b4 \ubcc0\uacbd \uc800\uc7a5 \uc644\ub8cc: "+a,"UniTalk_RTDB")
-else A.ar("RTDB \uc5b8\uc5b4 \ubcc0\uacbd \uc800\uc7a5 \uc2e4\ud328","UniTalk_RTDB")
+if(k)A.aq("RTDB\uc5d0 \uc5b8\uc5b4 \ubcc0\uacbd \uc800\uc7a5 \uc644\ub8cc: "+a,"UniTalk_RTDB")
+else A.aq("RTDB \uc5b8\uc5b4 \ubcc0\uacbd \uc800\uc7a5 \uc2e4\ud328","UniTalk_RTDB")
 p=2
 s=6
 break
 case 4:p=3
 f=o.pop()
 j=A.U(f)
-A.ar("RTDB \uc5b8\uc5b4 \ubcc0\uacbd \uc911 \uc5d0\ub7ec: "+A.i(j),"UniTalk_RTDB")
+A.aq("RTDB \uc5b8\uc5b4 \ubcc0\uacbd \uc911 \uc5d0\ub7ec: "+A.i(j),"UniTalk_RTDB")
 s=6
 break
 case 3:s=2
@@ -77702,15 +77702,15 @@ s=h.as.gew()!=null?11:12
 break
 case 11:g=h.as.gew()
 m=g==null?null:g.a.c.a.b
-if(J.d(m,$.lp)){A.ar("\uac19\uc740 \uacc4\uc815\uc73c\ub85c \uc774\ubbf8 \ub85c\uadf8\uc778\ub418\uc5b4 \uc788\uc2b5\ub2c8\ub2e4: "+A.i($.lp),"UniTalk_Auth")
+if(J.d(m,$.lp)){A.aq("\uac19\uc740 \uacc4\uc815\uc73c\ub85c \uc774\ubbf8 \ub85c\uadf8\uc778\ub418\uc5b4 \uc788\uc2b5\ub2c8\ub2e4: "+A.i($.lp),"UniTalk_Auth")
 s=1
-break}A.ar("\uacc4\uc815 \uc804\ud658: "+A.i(m)+" \u2192 "+A.i($.lp),"UniTalk_Auth")
+break}A.aq("\uacc4\uc815 \uc804\ud658: "+A.i(m)+" \u2192 "+A.i($.lp),"UniTalk_Auth")
 s=13
 return A.q(h.dz(),$async$kp)
 case 13:s=14
 return A.q(A.dH(B.bc,null,e),$async$kp)
 case 14:case 12:e=$.lp
-A.ar("URL \ud30c\ub77c\ubbf8\ud130\ub85c \uc790\ub3d9 \ub85c\uadf8\uc778 \uc2dc\ub3c4: "+A.i(e),"UniTalk_Auth")
+A.aq("URL \ud30c\ub77c\ubbf8\ud130\ub85c \uc790\ub3d9 \ub85c\uadf8\uc778 \uc2dc\ub3c4: "+A.i(e),"UniTalk_Auth")
 e.toString
 g=$.asy
 g.toString
@@ -77719,7 +77719,7 @@ return A.q(h.pj(e,g),$async$kp)
 case 15:l=b
 s=l!=null&&n.c!=null?16:17
 break
-case 16:A.ar("URL \ud30c\ub77c\ubbf8\ud130 \uc790\ub3d9 \ub85c\uadf8\uc778 \uc131\uacf5: "+A.i(l.a.c.a.b),"UniTalk_Auth")
+case 16:A.aq("URL \ud30c\ub77c\ubbf8\ud130 \uc790\ub3d9 \ub85c\uadf8\uc778 \uc131\uacf5: "+A.i(l.a.c.a.b),"UniTalk_Auth")
 $.a8()
 e=$.b8
 if(e==null)e=$.b8=B.S
@@ -77733,7 +77733,7 @@ return A.q(k.kW(j.as.gl(0),e.c.a.a),$async$kp)
 case 18:e=n.c
 if(e==null){s=1
 break}e.al(t.Pu).f.pi(A.Az(null,null,null,B.iV,B.l7,B.ab,null,A.hN(A.c([B.Jp,B.i3,A.ce("QR \ucf54\ub4dc \ub85c\uadf8\uc778 \uc131\uacf5: "+A.i($.lp),null,null,null)],t.D),B.N,B.a8),null,B.j8,null,null,null,B.IG,null,null,null,new A.d0(A.e9(8),B.y),null,null))
-A.ar("\ubcf4\uc548: URL \ud30c\ub77c\ubbf8\ud130 \uc81c\uac70 \uad8c\uc7a5","UniTalk_Auth")
+A.aq("\ubcf4\uc548: URL \ud30c\ub77c\ubbf8\ud130 \uc81c\uac70 \uad8c\uc7a5","UniTalk_Auth")
 s=1
 break
 case 17:p=2
@@ -77742,14 +77742,14 @@ break
 case 8:p=7
 d=o.pop()
 i=A.U(d)
-A.ar("URL \ud30c\ub77c\ubbf8\ud130 \uc790\ub3d9 \ub85c\uadf8\uc778 \uc2e4\ud328: "+A.i(i),"UniTalk_Auth")
+A.aq("URL \ud30c\ub77c\ubbf8\ud130 \uc790\ub3d9 \ub85c\uadf8\uc778 \uc2e4\ud328: "+A.i(i),"UniTalk_Auth")
 s=10
 break
 case 7:s=2
 break
 case 10:s=5
 break
-case 6:A.ar("URL \ud30c\ub77c\ubbf8\ud130\uac00 \uc5c6\uc2b5\ub2c8\ub2e4. QR \ucf54\ub4dc\ub97c \ud1b5\ud574\uc11c\ub9cc \ub85c\uadf8\uc778 \uac00\ub2a5\ud569\ub2c8\ub2e4.","UniTalk_Auth")
+case 6:A.aq("URL \ud30c\ub77c\ubbf8\ud130\uac00 \uc5c6\uc2b5\ub2c8\ub2e4. QR \ucf54\ub4dc\ub97c \ud1b5\ud574\uc11c\ub9cc \ub85c\uadf8\uc778 \uac00\ub2a5\ud569\ub2c8\ub2e4.","UniTalk_Auth")
 case 5:case 1:return A.x(q,r)
 case 2:return A.w(o.at(-1),r)}})
 return A.y($async$kp,r)}}
@@ -77779,7 +77779,7 @@ $0(){this.a.cy="v1.0.9"},
 $S:0}
 A.ar7.prototype={
 $1(a){var s
-A.ar("STT \uc0c1\ud0dc: "+a,"UniTalk_STT")
+A.aq("STT \uc0c1\ud0dc: "+a,"UniTalk_STT")
 if(a==="done"||a==="notListening"){s=this.a
 if(s.c!=null){s.ay.bj(0)
 s.d.pq()
@@ -77790,7 +77790,7 @@ $0(){this.a.ax=A.eA("status.processing")},
 $S:0}
 A.ar6.prototype={
 $1(a){var s,r=null
-A.ar("STT \uc5d0\ub7ec: "+a.j(0),"UniTalk_STT")
+A.aq("STT \uc5d0\ub7ec: "+a.j(0),"UniTalk_STT")
 s=this.a
 s.ao(new A.ar5(s,a))
 s.d.pq()
@@ -77833,7 +77833,7 @@ if(A.a_Q(s,o,0)){n=p.b
 q=A.e6(q,o,n)}}r=A.bQ("\\s+",!0,!1)
 m=B.c.f_(A.e6(q,r," "))
 l.ao(new A.arg(l,m))
-A.ar('\uc2dc\ubbac\ub808\uc774\uc158 \ubc88\uc5ed \uc644\ub8cc: "'+s+'" -> "'+m+'"',"UniTalk_STT")}},
+A.aq('\uc2dc\ubbac\ub808\uc774\uc158 \ubc88\uc5ed \uc644\ub8cc: "'+s+'" -> "'+m+'"',"UniTalk_STT")}},
 $S:9}
 A.arg.prototype={
 $0(){var s=this.a
@@ -77844,7 +77844,7 @@ A.arf.prototype={
 $1(a){var s,r=this.a
 r.ao(new A.are(r,a))
 s=a.b
-A.ar("\uc5b8\uc5b4 \ubcc0\uacbd: "+a.a+" ("+s+")","UniTalk_STT")
+A.aq("\uc5b8\uc5b4 \ubcc0\uacbd: "+a.a+" ("+s+")","UniTalk_STT")
 r.uT(s.toLowerCase())},
 $S:518}
 A.are.prototype={
@@ -77896,7 +77896,7 @@ SJ(a){var s=0,r=A.z(t.H),q=this,p,o,n
 var $async$$1=A.t(function(b,c){if(b===1)return A.w(c,r)
 for(;;)switch(s){case 0:o=q.b
 n=q.e
-A.ar('TTS \uc7ac\uc0dd \uc694\uccad: "'+o+'" (\uc6d0\ubcf8\uc5b8\uc5b4: '+A.i(q.c)+", \ubc88\uc5ed\uc5ec\ubd80: "+q.d+", TTS\uc5b8\uc5b4: "+n+")","UniTalk_TTS")
+A.aq('TTS \uc7ac\uc0dd \uc694\uccad: "'+o+'" (\uc6d0\ubcf8\uc5b8\uc5b4: '+A.i(q.c)+", \ubc88\uc5ed\uc5ec\ubd80: "+q.d+", TTS\uc5b8\uc5b4: "+n+")","UniTalk_TTS")
 p=q.a.w
 p===$&&A.a()
 s=p.ax.gl(0)?2:3
@@ -77924,7 +77924,7 @@ A.aqW.prototype={
 $0(){var s=this.a.w
 s===$&&A.a()
 s.bj(0)
-A.ar("TTS \uc218\ub3d9 \uc911\uc9c0","UniTalk_TTS")},
+A.aq("TTS \uc218\ub3d9 \uc911\uc9c0","UniTalk_TTS")},
 $S:0}
 A.aqX.prototype={
 $0(){var s=0,r=A.z(t.H),q,p=this,o,n,m
@@ -77934,7 +77934,7 @@ n=o.db
 m=o.dx
 m=m.length!==0?m:o.as.b.toLowerCase()
 if(n.length===0){s=1
-break}A.ar('\ub179\uc0c9 \uce74\ub4dc \ud50c\ub808\uc774 \ubc84\ud2bc: "'+n+'" ('+m+")","UniTalk_TTS")
+break}A.aq('\ub179\uc0c9 \uce74\ub4dc \ud50c\ub808\uc774 \ubc84\ud2bc: "'+n+'" ('+m+")","UniTalk_TTS")
 o=o.w
 o===$&&A.a()
 s=o.ax.gl(0)?3:4
@@ -77993,7 +77993,7 @@ r=t.D
 s=A.c([A.kr(B.Ji,s.bJ(0.5),j,48),B.l5,A.ce(A.eA("screen.mic_prompt"),j,A.cy(j,j,s.bJ(0.7),j,j,j,j,j,j,j,j,17,j,j,B.o,j,j,!0,j,j,j,j,j,j,j,j),B.ci)],r)
 if(!i.ch)B.b.J(s,A.c([B.i4,A.ce(A.eA("screen.mic_permission_message"),j,A.cy(j,j,B.kj,j,j,j,j,j,j,j,j,14,j,j,B.o,j,j,!0,j,j,j,j,j,j,j,j),B.ci)],r))
 return A.vO(A.f7(s,B.ba,B.hw,B.a8),j,j)}q=s.cx
-A.ar("\ud788\uc2a4\ud1a0\ub9ac \ud45c\uc2dc \ubd84\uae30 \uc2e4\ud589 \uc911 - isListening: "+q.gl(0),"UniTalk_Layout")
+A.aq("\ud788\uc2a4\ud1a0\ub9ac \ud45c\uc2dc \ubd84\uae30 \uc2e4\ud589 \uc911 - isListening: "+q.gl(0),"UniTalk_Layout")
 r=new A.xY(r,r.$ti.i("xY<V.E>"))
 p=t.l7
 r=A.a2(r.gfR(r).eV(0,new A.ar0(i,k.b),p),p)
@@ -78042,7 +78042,7 @@ $.a8()
 s=this.as
 r=s.gew()
 if(r!=null){q=r.a.c.a
-A.ar("[AuthService] \ucd08\uae30 \uc778\uc99d \uc0ac\uc6a9\uc790 \uc788\uc74c: "+A.i(q.b)+" (UID: "+q.a+")",p)}else A.ar("[AuthService] \ucd08\uae30 \uc778\uc99d \uc0ac\uc6a9\uc790 \uc5c6\uc74c",p)
+A.aq("[AuthService] \ucd08\uae30 \uc778\uc99d \uc0ac\uc6a9\uc790 \uc788\uc74c: "+A.i(q.b)+" (UID: "+q.a+")",p)}else A.aq("[AuthService] \ucd08\uae30 \uc778\uc99d \uc0ac\uc6a9\uc790 \uc5c6\uc74c",p)
 s.a5Q(s.gpR().hX()).eg(new A.a0K())},
 pj(a,b){return this.U2(a,b)},
 U2(a,b){var s=0,r=A.z(t.t6),q,p=2,o=[],n=[],m=this,l,k,j,i,h,g,f
@@ -78050,7 +78050,7 @@ var $async$pj=A.t(function(c,d){if(c===1){o.push(d)
 s=p}for(;;)switch(s){case 0:p=4
 m.at.sl(0,!0)
 m.ax.sl(0,"")
-A.ar("[AuthService] \uc6f9 \ud658\uacbd\uc5d0\uc11c \ub85c\uadf8\uc778 \uc2dc\ub3c4: "+a,"AuthService")
+A.aq("[AuthService] \uc6f9 \ud658\uacbd\uc5d0\uc11c \ub85c\uadf8\uc778 \uc2dc\ub3c4: "+a,"AuthService")
 s=7
 return A.q(m.as.tt(a,b),$async$pj)
 case 7:l=d
@@ -78059,7 +78059,7 @@ i=l.goW()
 i=i==null?null:i.a.c.a.a
 h=l.goW()
 h=h==null?null:h.a.c.a.b
-A.ar("[AuthService] \ub85c\uadf8\uc778 \uc131\uacf5! UID: "+A.i(i)+", Email: "+A.i(h),"AuthService")
+A.aq("[AuthService] \ub85c\uadf8\uc778 \uc131\uacf5! UID: "+A.i(i)+", Email: "+A.i(h),"AuthService")
 s=l.goW()!=null?8:9
 break
 case 8:i=l.goW()
@@ -78079,14 +78079,14 @@ f=o.pop()
 i=A.U(f)
 if(i instanceof A.qZ){k=i
 m.a1j(k)
-A.ar("[AuthService] FirebaseAuthException: "+k.c+" - "+A.i(k.b),"AuthService")
+A.aq("[AuthService] FirebaseAuthException: "+k.c+" - "+A.i(k.b),"AuthService")
 q=null
 n=[1]
 s=5
 break}else{j=i
 m.ax.sl(0,"\uc54c \uc218 \uc5c6\ub294 \uc624\ub958\uac00 \ubc1c\uc0dd\ud588\uc2b5\ub2c8\ub2e4: "+A.i(j))
 $.a8()
-A.ar("[AuthService] \uc77c\ubc18 \ub85c\uadf8\uc778 \uc5d0\ub7ec: "+A.i(j),"AuthService")
+A.aq("[AuthService] \uc77c\ubc18 \ub85c\uadf8\uc778 \uc5d0\ub7ec: "+A.i(j),"AuthService")
 q=null
 n=[1]
 s=5
@@ -78203,7 +78203,7 @@ this.mX(0)}}
 A.a0K.prototype={
 $1(a){var s,r="AuthService"
 if(a!=null){s=a.a.c.a
-A.ar("[AuthService] Firebase \uc778\uc99d \uc0ac\uc6a9\uc790 \uac10\uc9c0: "+A.i(s.b)+" (UID: "+s.a+")",r)}else A.ar("[AuthService] Firebase \uc778\uc99d \uc0ac\uc6a9\uc790 \uc5c6\uc74c",r)},
+A.aq("[AuthService] Firebase \uc778\uc99d \uc0ac\uc6a9\uc790 \uac10\uc9c0: "+A.i(s.b)+" (UID: "+s.a+")",r)}else A.aq("[AuthService] Firebase \uc778\uc99d \uc0ac\uc6a9\uc790 \uc5c6\uc74c",r)},
 $S:525}
 A.qp.prototype={
 ig(){var s,r,q,p=this,o="kakaotalk",n="instagram"
@@ -78419,7 +78419,7 @@ $.a8()
 n=q.as
 n===$&&A.a()
 p=A.qK(n.glv().l7("speech_data/"+a))
-A.ar("[RtdbService] UNITALK 001 \ub9ac\uc2a4\ub108 \uc124\uc815: speech_data/"+a+"/","RtdbService")
+A.aq("[RtdbService] UNITALK 001 \ub9ac\uc2a4\ub108 \uc124\uc815: speech_data/"+a+"/","RtdbService")
 q.cy=p.gEQ().Eh(new A.afh(q),new A.afi())}catch(l){o=A.U(l)
 $.a8()}return A.x(null,r)}})
 return A.y($async$yx,r)},
@@ -78586,8 +78586,8 @@ $.a8()},
 $S:22}
 A.afh.prototype={
 $1(a4){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0="RtdbService",a1=null,a2="value",a3="text"
-A.ar("[RtdbService] \uc0ac\uc6a9\uc790 devices \uc774\ubca4\ud2b8 \uc218\uc2e0",a0)
-A.ar("[RtdbService] Snapshot exists: "+(a4.git().a.a.h(0,a2)!=null),a0)
+A.aq("[RtdbService] \uc0ac\uc6a9\uc790 devices \uc774\ubca4\ud2b8 \uc218\uc2e0",a0)
+A.aq("[RtdbService] Snapshot exists: "+(a4.git().a.a.h(0,a2)!=null),a0)
 if(a4.git().a.a.h(0,a2)!=null){g=t.f
 f=t.N
 e=t.z
@@ -78626,11 +78626,11 @@ A.i(J.ax(q,"lang"))
 A.i(l)
 $.a8()
 if(l)g.cx=n
-break}}}}else{A.ar("[RtdbService] \uc0ac\uc6a9\uc790 devices \ub370\uc774\ud130\uac00 null\uc785\ub2c8\ub2e4",a0)
+break}}}}else{A.aq("[RtdbService] \uc0ac\uc6a9\uc790 devices \ub370\uc774\ud130\uac00 null\uc785\ub2c8\ub2e4",a0)
 this.a.CW.sl(0,a1)}},
 $S:106}
 A.afi.prototype={
-$1(a){A.ar("[RtdbService] UNITALK 001 \ub9ac\uc2a4\ub2dd \uc5d0\ub7ec: "+A.i(a),"RtdbService")
+$1(a){A.aq("[RtdbService] UNITALK 001 \ub9ac\uc2a4\ub2dd \uc5d0\ub7ec: "+A.i(a),"RtdbService")
 $.a8()},
 $S:22}
 A.afe.prototype={
@@ -78855,7 +78855,7 @@ q=J.i4(r,"android")
 p=J.i4(r,"chrome")&&!J.i4(r,"edg")&&!J.i4(r,"samsung")
 n=q&&p
 return n}catch(k){o=A.U(k)
-A.ar("Android Chrome \uac10\uc9c0 \uc2e4\ud328: "+A.i(o),"UniTalk_TTS")
+A.aq("Android Chrome \uac10\uc9c0 \uc2e4\ud328: "+A.i(o),"UniTalk_TTS")
 return!1}},
 Ks(){var s,r,q,p,o,n,m,l
 try{$.a8()
@@ -78871,18 +78871,18 @@ m=o==null?null:J.bR(o).toLowerCase()
 r=m==null?"":m
 q=J.i4(r,"iphone")||J.i4(r,"ipad")||J.i4(r,"ipod")
 return q}catch(l){p=A.U(l)
-A.ar("iOS \uc6f9 \uac10\uc9c0 \uc2e4\ud328: "+A.i(p),"UniTalk_TTS")
+A.aq("iOS \uc6f9 \uac10\uc9c0 \uc2e4\ud328: "+A.i(p),"UniTalk_TTS")
 return!1}},
 ig(){this.ll()
 this.jn()},
 jn(){var s=0,r=A.z(t.H),q=1,p=[],o=this,n,m,l,k,j,i
 var $async$jn=A.t(function(a,b){if(a===1){p.push(b)
 s=q}for(;;)switch(s){case 0:q=3
-A.ar("TTS \ucd08\uae30\ud654 \uc2dc\uc791","UniTalk_TTS")
+A.aq("TTS \ucd08\uae30\ud654 \uc2dc\uc791","UniTalk_TTS")
 l=new A.JK()
 B.bj.hN(l.gafR())
 o.as=l
-A.ar("\uc6f9 \ud658\uacbd TTS \uc124\uc815 \uc801\uc6a9","UniTalk_TTS")
+A.aq("\uc6f9 \ud658\uacbd TTS \uc124\uc815 \uc801\uc6a9","UniTalk_TTS")
 s=6
 return A.q(l.kh(o.ch.gl(0)),$async$jn)
 case 6:s=7
@@ -78892,14 +78892,14 @@ return A.q(o.as.tl(o.cx.gl(0)),$async$jn)
 case 8:q=10
 s=13
 return A.q(o.as.vj(!0),$async$jn)
-case 13:A.ar("\uc6f9 \ud658\uacbd: TTS \uc21c\ucc28 \ucc98\ub9ac \ud65c\uc131\ud654 (awaitSpeakCompletion)","UniTalk_TTS")
+case 13:A.aq("\uc6f9 \ud658\uacbd: TTS \uc21c\ucc28 \ucc98\ub9ac \ud65c\uc131\ud654 (awaitSpeakCompletion)","UniTalk_TTS")
 q=3
 s=12
 break
 case 10:q=9
 j=p.pop()
 n=A.U(j)
-A.ar("awaitSpeakCompletion \uc124\uc815 \uc2e4\ud328: "+A.i(n),"UniTalk_TTS")
+A.aq("awaitSpeakCompletion \uc124\uc815 \uc2e4\ud328: "+A.i(n),"UniTalk_TTS")
 s=12
 break
 case 9:s=3
@@ -78910,7 +78910,7 @@ l.b=new A.ajp(o)
 l.r=new A.ajq(o)
 l.e=new A.ajr(o)
 o.at.sl(0,!0)
-A.ar("TTS \ucd08\uae30\ud654 \uc644\ub8cc","UniTalk_TTS")
+A.aq("TTS \ucd08\uae30\ud654 \uc644\ub8cc","UniTalk_TTS")
 s=14
 return A.q(o.tJ(),$async$jn)
 case 14:s=15
@@ -78921,7 +78921,7 @@ break
 case 3:q=2
 i=p.pop()
 m=A.U(i)
-A.ar("TTS \ucd08\uae30\ud654 \uc2e4\ud328: "+A.i(m),"UniTalk_TTS")
+A.aq("TTS \ucd08\uae30\ud654 \uc2e4\ud328: "+A.i(m),"UniTalk_TTS")
 o.at.sl(0,!1)
 s=5
 break
@@ -78938,14 +78938,14 @@ l===$&&A.a()
 s=6
 return A.q(l.gt5(),$async$tJ)
 case 6:n=b
-A.ar("\uc0ac\uc6a9 \uac00\ub2a5\ud55c TTS \uc5b8\uc5b4: "+A.i(n),"UniTalk_TTS")
+A.aq("\uc0ac\uc6a9 \uac00\ub2a5\ud55c TTS \uc5b8\uc5b4: "+A.i(n),"UniTalk_TTS")
 q=1
 s=5
 break
 case 3:q=2
 j=p.pop()
 m=A.U(j)
-A.ar("\uc5b8\uc5b4 \ubaa9\ub85d \uc870\ud68c \uc2e4\ud328: "+A.i(m),"UniTalk_TTS")
+A.aq("\uc5b8\uc5b4 \ubaa9\ub85d \uc870\ud68c \uc2e4\ud328: "+A.i(m),"UniTalk_TTS")
 s=5
 break
 case 2:s=1
@@ -78968,7 +78968,7 @@ if(b.b(m)){l=J.atU(m,new A.ajs(),a,a)
 a1=d.aJ$
 a1===$&&A.a()
 J.dE(a1,l)
-a0.fL(d.gl(0))}}A.ar("\uc0ac\uc6a9 \uac00\ub2a5\ud55c TTS \uc74c\uc131 \ubaa9\ub85d \ub85c\ub4dc \uc644\ub8cc: "+J.bH(d.gl(0))+"\uac1c","UniTalk_TTS")
+a0.fL(d.gl(0))}}A.aq("\uc0ac\uc6a9 \uac00\ub2a5\ud55c TTS \uc74c\uc131 \ubaa9\ub85d \ub85c\ub4dc \uc644\ub8cc: "+J.bH(d.gl(0))+"\uac1c","UniTalk_TTS")
 k=A.p(a,t.xW)
 for(d=J.aN(d.gl(0));d.q();){j=d.gH(d)
 i=J.ax(j,"locale")
@@ -78986,7 +78986,7 @@ break
 case 3:q=2
 a5=p.pop()
 e=A.U(a5)
-A.ar("\uc74c\uc131 \ubaa9\ub85d \ub85c\ub4dc \uc2e4\ud328: "+A.i(e),"UniTalk_TTS")
+A.aq("\uc74c\uc131 \ubaa9\ub85d \ub85c\ub4dc \uc2e4\ud328: "+A.i(e),"UniTalk_TTS")
 s=5
 break
 case 2:s=1
@@ -79026,59 +79026,59 @@ l=A.ai(["ko-KR",A.c(["Yuna","Microsoft Heami","Google \ud55c\uad6d\uc5b4"],h),"j
 if(l!=null)for(o=0;o<3;++o){k=B.b.wg(m,new A.ajm(l[o]),new A.ajn())
 h=J.ag(k)
 if(h.gbe(k)){h.h(k,j)
-return k}}A.ar(s+" \uae30\ubcf8 \uc74c\uc131 \uc120\ud0dd: "+A.i(J.ax(B.b.gI(m),j)),i)
-return B.b.gI(m)}A.ar(s+" \uc74c\uc131\uc744 \ucc3e\uc744 \uc218 \uc5c6\uc74c",i)
+return k}}A.aq(s+" \uae30\ubcf8 \uc74c\uc131 \uc120\ud0dd: "+A.i(J.ax(B.b.gI(m),j)),i)
+return B.b.gI(m)}A.aq(s+" \uc74c\uc131\uc744 \ucc3e\uc744 \uc218 \uc5c6\uc74c",i)
 return null},
 dP(a,b,c){return this.Ui(0,b,c)},
-Ui(b1,b2,b3){var s=0,r=A.z(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0
-var $async$dP=A.t(function(b4,b5){if(b4===1){o.push(b5)
-s=p}for(;;)switch(s){case 0:if(!n.at.gl(0)){A.ar("TTS\uac00 \ucd08\uae30\ud654\ub418\uc9c0 \uc54a\uc558\uc2b5\ub2c8\ub2e4","UniTalk_TTS")
+Ui(b2,b3,b4){var s=0,r=A.z(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1
+var $async$dP=A.t(function(b5,b6){if(b5===1){o.push(b6)
+s=p}for(;;)switch(s){case 0:if(!n.at.gl(0)){A.aq("TTS\uac00 \ucd08\uae30\ud654\ub418\uc9c0 \uc54a\uc558\uc2b5\ub2c8\ub2e4","UniTalk_TTS")
 s=1
 break}a=A.bQ("\\s+",!0,!1)
-m=B.c.f_(A.e6(b3,a," "))
-if(J.bH(m)===0){A.ar("\ube48 \ud14d\uc2a4\ud2b8\ub294 \uc7ac\uc0dd\ud560 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4","UniTalk_TTS")
+m=B.c.f_(A.e6(b4,a," "))
+if(J.bH(m)===0){A.aq("\ube48 \ud14d\uc2a4\ud2b8\ub294 \uc7ac\uc0dd\ud560 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4","UniTalk_TTS")
 s=1
 break}a0=new A.cT(Date.now(),0,!1)
 a1=B.i.cl(a0.e9(n.fr).a,1000)
 a2=n.Ks()
 a3=a2?2000:1000
-if(n.dx===m&&n.dy===b2&&a1<a3){A.ar("\uc911\ubcf5 \uc7ac\uc0dd \ucc28\ub2e8 "+(a2?"(iOS)":"")+": \uac19\uc740 \ud14d\uc2a4\ud2b8\ub97c "+a1+"ms \uc774\ub0b4 \uc7ac\uc694\uccad (\uc784\uacc4\uac12: "+a3+"ms)","UniTalk_TTS")
+if(n.dx===m&&n.dy===b3&&a1<a3){A.aq("\uc911\ubcf5 \uc7ac\uc0dd \ucc28\ub2e8 "+(a2?"(iOS)":"")+": \uac19\uc740 \ud14d\uc2a4\ud2b8\ub97c "+a1+"ms \uc774\ub0b4 \uc7ac\uc694\uccad (\uc784\uacc4\uac12: "+a3+"ms)","UniTalk_TTS")
 s=1
 break}a=n.ax
 s=a.gl(0)||n.fx?3:4
 break
-case 3:A.ar("TTS \uc7ac\uc0dd \uc911\uc774\ubbc0\ub85c \uc911\uc9c0 \ud6c4 \uc7ac\uc0dd\ud569\ub2c8\ub2e4","UniTalk_TTS")
+case 3:A.aq("TTS \uc7ac\uc0dd \uc911\uc774\ubbc0\ub85c \uc911\uc9c0 \ud6c4 \uc7ac\uc0dd\ud569\ub2c8\ub2e4","UniTalk_TTS")
 s=5
 return A.q(n.bj(0),$async$dP)
 case 5:case 4:n.fx=!0
 n.dx=m
-n.dy=b2
+n.dy=b3
 n.fr=a0
 p=7
-l=n.JK(b2)
-A.ar("TTS \uc5b8\uc5b4 \uc124\uc815 \uc2dc\uc791: "+b2+" -> "+A.i(l),"UniTalk_TTS")
-k=n.a0D(b2)
-A.ar("\uc6f9 \ud658\uacbd TTS \uc7ac\uc0dd \uc2dc\ub3c4","UniTalk_TTS")
+l=n.JK(b3)
+A.aq("TTS \uc5b8\uc5b4 \uc124\uc815 \uc2dc\uc791: "+b3+" -> "+A.i(l),"UniTalk_TTS")
+k=n.a0D(b3)
+A.aq("\uc6f9 \ud658\uacbd TTS \uc7ac\uc0dd \uc2dc\ub3c4","UniTalk_TTS")
 p=11
 a4=n.as
 a4===$&&A.a()
 s=14
 return A.q(a4.pc(l),$async$dP)
-case 14:A.ar("\uc6f9 TTS \uc5b8\uc5b4 \uc124\uc815 \uc644\ub8cc: "+A.i(l),"UniTalk_TTS")
+case 14:A.aq("\uc6f9 TTS \uc5b8\uc5b4 \uc124\uc815 \uc644\ub8cc: "+A.i(l),"UniTalk_TTS")
 s=k!=null?15:16
 break
 case 15:p=18
 s=21
 return A.q(n.as.pf(k),$async$dP)
 case 21:n.db.sl(0,k)
-A.ar("\uc6f9 TTS \uc74c\uc131 \uc124\uc815 \uc644\ub8cc: "+A.i(J.ax(k,"name")),"UniTalk_TTS")
+A.aq("\uc6f9 TTS \uc74c\uc131 \uc124\uc815 \uc644\ub8cc: "+A.i(J.ax(k,"name")),"UniTalk_TTS")
 p=11
 s=20
 break
 case 18:p=17
-a6=o.pop()
-j=A.U(a6)
-A.ar("\uc6f9 TTS \uc74c\uc131 \uc124\uc815 \uc2e4\ud328 (\ube0c\ub77c\uc6b0\uc800 \uc81c\ud55c), \uc5b8\uc5b4\ub9cc \uc0ac\uc6a9: "+A.i(j),"UniTalk_TTS")
+a7=o.pop()
+j=A.U(a7)
+A.aq("\uc6f9 TTS \uc74c\uc131 \uc124\uc815 \uc2e4\ud328 (\ube0c\ub77c\uc6b0\uc800 \uc81c\ud55c), \uc5b8\uc5b4\ub9cc \uc0ac\uc6a9: "+A.i(j),"UniTalk_TTS")
 s=20
 break
 case 17:s=11
@@ -79086,43 +79086,43 @@ break
 case 20:case 16:i=n.Ks()
 s=i?22:24
 break
-case 22:s=b2.toLowerCase()==="ko"?25:27
+case 22:s=b3.toLowerCase()==="ko"?25:27
 break
 case 25:s=28
 return A.q(n.as.kh(0.9),$async$dP)
-case 28:A.ar("iOS \uc6f9 \ud55c\uae00 TTS \uc18d\ub3c4 \ucd5c\uc801\ud654 (\uc18d\ub3c4: 0.9)","UniTalk_TTS")
+case 28:A.aq("iOS \uc6f9 \ud55c\uae00 TTS \uc18d\ub3c4 \ucd5c\uc801\ud654 (\uc18d\ub3c4: 0.9)","UniTalk_TTS")
 s=26
 break
 case 27:a4=n.as
-s=b2.toLowerCase()==="en"?29:31
+s=b3.toLowerCase()==="en"?29:31
 break
 case 29:s=32
 return A.q(a4.kh(1),$async$dP)
-case 32:A.ar("iOS \uc6f9 \uc601\uc5b4 TTS \uc18d\ub3c4 \ucd5c\uc801\ud654 (\uc18d\ub3c4: 1.0)","UniTalk_TTS")
+case 32:A.aq("iOS \uc6f9 \uc601\uc5b4 TTS \uc18d\ub3c4 \ucd5c\uc801\ud654 (\uc18d\ub3c4: 1.0)","UniTalk_TTS")
 s=30
 break
 case 31:s=33
 return A.q(a4.kh(0.95),$async$dP)
-case 33:A.ar("iOS \uc6f9 TTS \uc18d\ub3c4 \ucd5c\uc801\ud654 (\uc18d\ub3c4: 0.95)","UniTalk_TTS")
+case 33:A.aq("iOS \uc6f9 TTS \uc18d\ub3c4 \ucd5c\uc801\ud654 (\uc18d\ub3c4: 0.95)","UniTalk_TTS")
 case 30:case 26:s=23
 break
-case 24:s=b2.toLowerCase()==="en"?34:35
+case 24:s=b3.toLowerCase()==="en"?34:35
 break
 case 34:s=36
 return A.q(n.as.kh(0.9),$async$dP)
-case 36:A.ar("\uc601\uc5b4 TTS \uc6f9 \ucd5c\uc801\ud654 \uc801\uc6a9 (\uc18d\ub3c4: 0.9)","UniTalk_TTS")
+case 36:A.aq("\uc601\uc5b4 TTS \uc6f9 \ucd5c\uc801\ud654 \uc801\uc6a9 (\uc18d\ub3c4: 0.9)","UniTalk_TTS")
 case 35:case 23:p=7
 s=13
 break
 case 11:p=10
-a7=o.pop()
-h=A.U(a7)
-A.ar("\uc6f9 TTS \uc5b8\uc5b4 \uc124\uc815 \uc2e4\ud328, \uae30\ubcf8 \uc5b8\uc5b4 \uc0ac\uc6a9: "+A.i(h),"UniTalk_TTS")
+a8=o.pop()
+h=A.U(a8)
+A.aq("\uc6f9 TTS \uc5b8\uc5b4 \uc124\uc815 \uc2e4\ud328, \uae30\ubcf8 \uc5b8\uc5b4 \uc0ac\uc6a9: "+A.i(h),"UniTalk_TTS")
 a4=n.as
 a4===$&&A.a()
 s=37
 return A.q(a4.pc("en-US"),$async$dP)
-case 37:s=b2.toLowerCase()==="en"&&k!=null?38:39
+case 37:s=b3.toLowerCase()==="en"&&k!=null?38:39
 break
 case 38:p=41
 s=44
@@ -79132,9 +79132,9 @@ p=10
 s=43
 break
 case 41:p=40
-a8=o.pop()
-g=A.U(a8)
-A.ar("\uc6f9 \uae30\ubcf8 \uc601\uc5b4 \uc74c\uc131 \uc124\uc815\ub3c4 \uc2e4\ud328: "+A.i(g),"UniTalk_TTS")
+a9=o.pop()
+g=A.U(a9)
+A.aq("\uc6f9 \uae30\ubcf8 \uc601\uc5b4 \uc74c\uc131 \uc124\uc815\ub3c4 \uc2e4\ud328: "+A.i(g),"UniTalk_TTS")
 s=43
 break
 case 40:s=10
@@ -79143,8 +79143,8 @@ case 43:case 39:s=13
 break
 case 10:s=7
 break
-case 13:n.ay.sl(0,b2)
-A.ar('TTS \uc7ac\uc0dd \uc2dc\uc791: "'+A.i(m)+'" (\uc5b8\uc5b4: '+A.i(l)+")","UniTalk_TTS")
+case 13:n.ay.sl(0,b3)
+A.aq('TTS \uc7ac\uc0dd \uc2dc\uc791: "'+A.i(m)+'" (\uc5b8\uc5b4: '+A.i(l)+")","UniTalk_TTS")
 p=46
 a4=n.as
 a4===$&&A.a()
@@ -79156,44 +79156,48 @@ case 50:p=7
 s=48
 break
 case 46:p=45
-a9=o.pop()
-f=A.U(a9)
-A.ar("\uc6f9 TTS \uc0ac\uc804 \uc911\uc9c0 \uc2e4\ud328: "+A.i(f),"UniTalk_TTS")
+b0=o.pop()
+f=A.U(b0)
+A.aq("\uc6f9 TTS \uc0ac\uc804 \uc911\uc9c0 \uc2e4\ud328: "+A.i(f),"UniTalk_TTS")
 s=48
 break
 case 45:s=7
 break
 case 48:e=n.a3F()
+n.fy=!1
 a4=n.as
 a4===$&&A.a()
 s=51
 return A.q(a4.pl(0,m),$async$dP)
-case 51:d=b5
+case 51:d=b6
 s=J.d(d,1)?52:54
 break
-case 52:A.ar("TTS \uc7ac\uc0dd \uc131\uacf5","UniTalk_TTS")
+case 52:A.aq("TTS \uc7ac\uc0dd \uc131\uacf5","UniTalk_TTS")
 s=53
 break
-case 54:A.ar("TTS \uc7ac\uc0dd \uc2e4\ud328: result="+A.i(d),"UniTalk_TTS")
-s=!e?55:57
+case 54:a4=A.i(d)
+a6=n.fy
+A.aq("TTS \uc7ac\uc0dd \uc2e4\ud328: result="+a4+", onStartFired="+a6,"UniTalk_TTS")
+s=!e&&!a6?55:57
 break
-case 55:A.ar("\uc6f9 TTS \uc7ac\uc2dc\ub3c4 \uc2dc\uc791","UniTalk_TTS")
+case 55:A.aq("\uc6f9 TTS \uc7ac\uc2dc\ub3c4 \uc2dc\uc791 (onStart \ubbf8\ubc1c\uc0dd)","UniTalk_TTS")
 s=58
 return A.q(A.dH(B.aV,null,t.z),$async$dP)
 case 58:s=59
 return A.q(n.as.pl(0,m),$async$dP)
-case 59:c=b5
-A.ar("\uc6f9 TTS \uc7ac\uc2dc\ub3c4 \uacb0\uacfc: "+A.i(c),"UniTalk_TTS")
+case 59:c=b6
+A.aq("\uc6f9 TTS \uc7ac\uc2dc\ub3c4 \uacb0\uacfc: "+A.i(c),"UniTalk_TTS")
 s=56
 break
-case 57:if(e)A.ar("Android Chrome \uac10\uc9c0\ub428: \uc911\ubcf5 \ubc1c\ud654\ub97c \ud53c\ud558\uae30 \uc704\ud574 \uc7ac\uc2dc\ub3c4\ub97c \uac74\ub108\ub701\ub2c8\ub2e4","UniTalk_TTS")
+case 57:if(a6)A.aq("onStart firing\ub428 - retry \uac74\ub108\ub700 (\uc911\ubcf5 \ubc1c\ud654 \ubc29\uc9c0)","UniTalk_TTS")
+else if(e)A.aq("Android Chrome \uac10\uc9c0\ub428: \uc911\ubcf5 \ubc1c\ud654\ub97c \ud53c\ud558\uae30 \uc704\ud574 \uc7ac\uc2dc\ub3c4\ub97c \uac74\ub108\ub701\ub2c8\ub2e4","UniTalk_TTS")
 case 56:case 53:p=2
 s=9
 break
 case 7:p=6
-b0=o.pop()
-b=A.U(b0)
-A.ar("TTS \uc7ac\uc0dd \uc5d0\ub7ec: "+A.i(b),"UniTalk_TTS")
+b1=o.pop()
+b=A.U(b1)
+A.aq("TTS \uc7ac\uc0dd \uc5d0\ub7ec: "+A.i(b),"UniTalk_TTS")
 a.sl(0,!1)
 n.fx=!1
 s=9
@@ -79212,7 +79216,7 @@ k===$&&A.a()
 s=7
 return A.q(k.bj(0),$async$bj)
 case 7:m=c
-if(J.d(m,1))A.ar("TTS \uc911\uc9c0 \uc131\uacf5","UniTalk_TTS")
+if(J.d(m,1))A.aq("TTS \uc911\uc9c0 \uc131\uacf5","UniTalk_TTS")
 n.ax.sl(0,!1)
 n.fx=!1
 p=2
@@ -79221,7 +79225,7 @@ break
 case 4:p=3
 i=o.pop()
 l=A.U(i)
-A.ar("TTS \uc911\uc9c0 \uc5d0\ub7ec: "+A.i(l),"UniTalk_TTS")
+A.aq("TTS \uc911\uc9c0 \uc5d0\ub7ec: "+A.i(l),"UniTalk_TTS")
 n.ax.sl(0,!1)
 n.fx=!1
 s=6
@@ -79234,26 +79238,28 @@ return A.y($async$bj,r)},
 iX(a){this.bj(0)
 this.mX(0)}}
 A.ajo.prototype={
-$0(){this.a.ax.sl(0,!0)
-A.ar("TTS \uc2dc\uc791","UniTalk_TTS")},
+$0(){var s=this.a
+s.ax.sl(0,!0)
+s.fy=!0
+A.aq("TTS \uc2dc\uc791","UniTalk_TTS")},
 $S:0}
 A.ajp.prototype={
 $0(){var s=this.a
 s.ax.sl(0,!1)
 s.fx=!1
-A.ar("TTS \uc644\ub8cc","UniTalk_TTS")},
+A.aq("TTS \uc644\ub8cc","UniTalk_TTS")},
 $S:0}
 A.ajq.prototype={
 $1(a){var s=this.a
 s.ax.sl(0,!1)
 s.fx=!1
-A.ar("TTS \uc5d0\ub7ec: "+A.i(a),"UniTalk_TTS")},
+A.aq("TTS \uc5d0\ub7ec: "+A.i(a),"UniTalk_TTS")},
 $S:23}
 A.ajr.prototype={
 $0(){var s=this.a
 s.ax.sl(0,!1)
 s.fx=!1
-A.ar("TTS \ucde8\uc18c","UniTalk_TTS")},
+A.aq("TTS \ucde8\uc18c","UniTalk_TTS")},
 $S:0}
 A.ajs.prototype={
 $2(a,b){return new A.aS(J.bR(a),J.bR(b),t.mT)},
@@ -86274,49 +86280,49 @@ $.asy=null
 $.aAh=null
 $.aAf=null
 $.aAg=null})();(function lazyInitializers(){var s=hunkHelpers.lazyFinal,r=hunkHelpers.lazy
-s($,"aYn","vb",()=>A.G(A.G(A.aq(),"ClipOp"),"Intersect"))
+s($,"aYn","vb",()=>A.G(A.G(A.ar(),"ClipOp"),"Intersect"))
 s($,"aZe","aHQ",()=>{var q="FontSlant"
-return A.c([A.G(A.G(A.aq(),q),"Upright"),A.G(A.G(A.aq(),q),"Italic")],t.O)})
+return A.c([A.G(A.G(A.ar(),q),"Upright"),A.G(A.G(A.ar(),q),"Italic")],t.O)})
 s($,"aZf","aHR",()=>{var q="FontWeight"
-return A.c([A.G(A.G(A.aq(),q),"Thin"),A.G(A.G(A.aq(),q),"ExtraLight"),A.G(A.G(A.aq(),q),"Light"),A.G(A.G(A.aq(),q),"Normal"),A.G(A.G(A.aq(),q),"Medium"),A.G(A.G(A.aq(),q),"SemiBold"),A.G(A.G(A.aq(),q),"Bold"),A.G(A.G(A.aq(),q),"ExtraBold"),A.G(A.G(A.aq(),q),"ExtraBlack")],t.O)})
+return A.c([A.G(A.G(A.ar(),q),"Thin"),A.G(A.G(A.ar(),q),"ExtraLight"),A.G(A.G(A.ar(),q),"Light"),A.G(A.G(A.ar(),q),"Normal"),A.G(A.G(A.ar(),q),"Medium"),A.G(A.G(A.ar(),q),"SemiBold"),A.G(A.G(A.ar(),q),"Bold"),A.G(A.G(A.ar(),q),"ExtraBold"),A.G(A.G(A.ar(),q),"ExtraBlack")],t.O)})
 s($,"aZo","atP",()=>{var q="TextDirection"
-return A.c([A.G(A.G(A.aq(),q),"RTL"),A.G(A.G(A.aq(),q),"LTR")],t.O)})
+return A.c([A.G(A.G(A.ar(),q),"RTL"),A.G(A.G(A.ar(),q),"LTR")],t.O)})
 s($,"aZl","aHX",()=>{var q="TextAlign"
-return A.c([A.G(A.G(A.aq(),q),"Left"),A.G(A.G(A.aq(),q),"Right"),A.G(A.G(A.aq(),q),"Center"),A.G(A.G(A.aq(),q),"Justify"),A.G(A.G(A.aq(),q),"Start"),A.G(A.G(A.aq(),q),"End")],t.O)})
+return A.c([A.G(A.G(A.ar(),q),"Left"),A.G(A.G(A.ar(),q),"Right"),A.G(A.G(A.ar(),q),"Center"),A.G(A.G(A.ar(),q),"Justify"),A.G(A.G(A.ar(),q),"Start"),A.G(A.G(A.ar(),q),"End")],t.O)})
 s($,"aZp","aI_",()=>{var q="TextHeightBehavior"
-return A.c([A.G(A.G(A.aq(),q),"All"),A.G(A.G(A.aq(),q),"DisableFirstAscent"),A.G(A.G(A.aq(),q),"DisableLastDescent"),A.G(A.G(A.aq(),q),"DisableAll")],t.O)})
+return A.c([A.G(A.G(A.ar(),q),"All"),A.G(A.G(A.ar(),q),"DisableFirstAscent"),A.G(A.G(A.ar(),q),"DisableLastDescent"),A.G(A.G(A.ar(),q),"DisableAll")],t.O)})
 s($,"aZh","aHT",()=>{var q="RectHeightStyle"
-return A.c([A.G(A.G(A.aq(),q),"Tight"),A.G(A.G(A.aq(),q),"Max"),A.G(A.G(A.aq(),q),"IncludeLineSpacingMiddle"),A.G(A.G(A.aq(),q),"IncludeLineSpacingTop"),A.G(A.G(A.aq(),q),"IncludeLineSpacingBottom"),A.G(A.G(A.aq(),q),"Strut")],t.O)})
+return A.c([A.G(A.G(A.ar(),q),"Tight"),A.G(A.G(A.ar(),q),"Max"),A.G(A.G(A.ar(),q),"IncludeLineSpacingMiddle"),A.G(A.G(A.ar(),q),"IncludeLineSpacingTop"),A.G(A.G(A.ar(),q),"IncludeLineSpacingBottom"),A.G(A.G(A.ar(),q),"Strut")],t.O)})
 s($,"aZi","aHU",()=>{var q="RectWidthStyle"
-return A.c([A.G(A.G(A.aq(),q),"Tight"),A.G(A.G(A.aq(),q),"Max")],t.O)})
-s($,"aZc","nb",()=>A.c([A.G(A.G(A.aq(),"ClipOp"),"Difference"),A.G(A.G(A.aq(),"ClipOp"),"Intersect")],t.O))
+return A.c([A.G(A.G(A.ar(),q),"Tight"),A.G(A.G(A.ar(),q),"Max")],t.O)})
+s($,"aZc","nb",()=>A.c([A.G(A.G(A.ar(),"ClipOp"),"Difference"),A.G(A.G(A.ar(),"ClipOp"),"Intersect")],t.O))
 s($,"aZd","atO",()=>{var q="FillType"
-return A.c([A.G(A.G(A.aq(),q),"Winding"),A.G(A.G(A.aq(),q),"EvenOdd")],t.O)})
+return A.c([A.G(A.G(A.ar(),q),"Winding"),A.G(A.G(A.ar(),q),"EvenOdd")],t.O)})
 s($,"aZb","aHP",()=>{var q="BlurStyle"
-return A.c([A.G(A.G(A.aq(),q),"Normal"),A.G(A.G(A.aq(),q),"Solid"),A.G(A.G(A.aq(),q),"Outer"),A.G(A.G(A.aq(),q),"Inner")],t.O)})
+return A.c([A.G(A.G(A.ar(),q),"Normal"),A.G(A.G(A.ar(),q),"Solid"),A.G(A.G(A.ar(),q),"Outer"),A.G(A.G(A.ar(),q),"Inner")],t.O)})
 s($,"aZj","aHV",()=>{var q="StrokeCap"
-return A.c([A.G(A.G(A.aq(),q),"Butt"),A.G(A.G(A.aq(),q),"Round"),A.G(A.G(A.aq(),q),"Square")],t.O)})
+return A.c([A.G(A.G(A.ar(),q),"Butt"),A.G(A.G(A.ar(),q),"Round"),A.G(A.G(A.ar(),q),"Square")],t.O)})
 s($,"aZg","aHS",()=>{var q="PaintStyle"
-return A.c([A.G(A.G(A.aq(),q),"Fill"),A.G(A.G(A.aq(),q),"Stroke")],t.O)})
+return A.c([A.G(A.G(A.ar(),q),"Fill"),A.G(A.G(A.ar(),q),"Stroke")],t.O)})
 s($,"aZa","aHO",()=>{var q="BlendMode"
-return A.c([A.G(A.G(A.aq(),q),"Clear"),A.G(A.G(A.aq(),q),"Src"),A.G(A.G(A.aq(),q),"Dst"),A.G(A.G(A.aq(),q),"SrcOver"),A.G(A.G(A.aq(),q),"DstOver"),A.G(A.G(A.aq(),q),"SrcIn"),A.G(A.G(A.aq(),q),"DstIn"),A.G(A.G(A.aq(),q),"SrcOut"),A.G(A.G(A.aq(),q),"DstOut"),A.G(A.G(A.aq(),q),"SrcATop"),A.G(A.G(A.aq(),q),"DstATop"),A.G(A.G(A.aq(),q),"Xor"),A.G(A.G(A.aq(),q),"Plus"),A.G(A.G(A.aq(),q),"Modulate"),A.G(A.G(A.aq(),q),"Screen"),A.G(A.G(A.aq(),q),"Overlay"),A.G(A.G(A.aq(),q),"Darken"),A.G(A.G(A.aq(),q),"Lighten"),A.G(A.G(A.aq(),q),"ColorDodge"),A.G(A.G(A.aq(),q),"ColorBurn"),A.G(A.G(A.aq(),q),"HardLight"),A.G(A.G(A.aq(),q),"SoftLight"),A.G(A.G(A.aq(),q),"Difference"),A.G(A.G(A.aq(),q),"Exclusion"),A.G(A.G(A.aq(),q),"Multiply"),A.G(A.G(A.aq(),q),"Hue"),A.G(A.G(A.aq(),q),"Saturation"),A.G(A.G(A.aq(),q),"Color"),A.G(A.G(A.aq(),q),"Luminosity")],t.O)})
+return A.c([A.G(A.G(A.ar(),q),"Clear"),A.G(A.G(A.ar(),q),"Src"),A.G(A.G(A.ar(),q),"Dst"),A.G(A.G(A.ar(),q),"SrcOver"),A.G(A.G(A.ar(),q),"DstOver"),A.G(A.G(A.ar(),q),"SrcIn"),A.G(A.G(A.ar(),q),"DstIn"),A.G(A.G(A.ar(),q),"SrcOut"),A.G(A.G(A.ar(),q),"DstOut"),A.G(A.G(A.ar(),q),"SrcATop"),A.G(A.G(A.ar(),q),"DstATop"),A.G(A.G(A.ar(),q),"Xor"),A.G(A.G(A.ar(),q),"Plus"),A.G(A.G(A.ar(),q),"Modulate"),A.G(A.G(A.ar(),q),"Screen"),A.G(A.G(A.ar(),q),"Overlay"),A.G(A.G(A.ar(),q),"Darken"),A.G(A.G(A.ar(),q),"Lighten"),A.G(A.G(A.ar(),q),"ColorDodge"),A.G(A.G(A.ar(),q),"ColorBurn"),A.G(A.G(A.ar(),q),"HardLight"),A.G(A.G(A.ar(),q),"SoftLight"),A.G(A.G(A.ar(),q),"Difference"),A.G(A.G(A.ar(),q),"Exclusion"),A.G(A.G(A.ar(),q),"Multiply"),A.G(A.G(A.ar(),q),"Hue"),A.G(A.G(A.ar(),q),"Saturation"),A.G(A.G(A.ar(),q),"Color"),A.G(A.G(A.ar(),q),"Luminosity")],t.O)})
 s($,"aZk","aHW",()=>{var q="StrokeJoin"
-return A.c([A.G(A.G(A.aq(),q),"Miter"),A.G(A.G(A.aq(),q),"Round"),A.G(A.G(A.aq(),q),"Bevel")],t.O)})
+return A.c([A.G(A.G(A.ar(),q),"Miter"),A.G(A.G(A.ar(),q),"Round"),A.G(A.G(A.ar(),q),"Bevel")],t.O)})
 s($,"aZq","aI0",()=>{var q="TileMode"
-return A.c([A.G(A.G(A.aq(),q),"Clamp"),A.G(A.G(A.aq(),q),"Repeat"),A.G(A.G(A.aq(),q),"Mirror"),A.G(A.G(A.aq(),q),"Decal")],t.O)})
+return A.c([A.G(A.G(A.ar(),q),"Clamp"),A.G(A.G(A.ar(),q),"Repeat"),A.G(A.G(A.ar(),q),"Mirror"),A.G(A.G(A.ar(),q),"Decal")],t.O)})
 s($,"aYt","aHi",()=>{var q="FilterMode",p="MipmapMode",o="Linear"
-return A.ai([B.c1,{filter:A.G(A.G(A.aq(),q),"Nearest"),mipmap:A.G(A.G(A.aq(),p),"None")},B.IY,{filter:A.G(A.G(A.aq(),q),o),mipmap:A.G(A.G(A.aq(),p),"None")},B.ft,{filter:A.G(A.G(A.aq(),q),o),mipmap:A.G(A.G(A.aq(),p),o)},B.n0,{B:0.3333333333333333,C:0.3333333333333333}],A.ad("nS"),t.m)})
+return A.ai([B.c1,{filter:A.G(A.G(A.ar(),q),"Nearest"),mipmap:A.G(A.G(A.ar(),p),"None")},B.IY,{filter:A.G(A.G(A.ar(),q),o),mipmap:A.G(A.G(A.ar(),p),"None")},B.ft,{filter:A.G(A.G(A.ar(),q),o),mipmap:A.G(A.G(A.ar(),p),o)},B.n0,{B:0.3333333333333333,C:0.3333333333333333}],A.ad("nS"),t.m)})
 s($,"aYz","aHm",()=>{var q=A.avj(2)
 q.$flags&2&&A.au(q)
 q[0]=0
 q[1]=1
 return q})
 s($,"aZ8","axR",()=>A.aTC(4))
-s($,"aYm","aHe",()=>A.aBN(A.G(A.aq(),"ParagraphBuilder")))
+s($,"aYm","aHe",()=>A.aBN(A.G(A.ar(),"ParagraphBuilder")))
 s($,"aZn","aHZ",()=>{var q="DecorationStyle"
-return A.c([A.G(A.G(A.aq(),q),"Solid"),A.G(A.G(A.aq(),q),"Double"),A.G(A.G(A.aq(),q),"Dotted"),A.G(A.G(A.aq(),q),"Dashed"),A.G(A.G(A.aq(),q),"Wavy")],t.O)})
+return A.c([A.G(A.G(A.ar(),q),"Solid"),A.G(A.G(A.ar(),q),"Double"),A.G(A.G(A.ar(),q),"Dotted"),A.G(A.G(A.ar(),q),"Dashed"),A.G(A.G(A.ar(),q),"Wavy")],t.O)})
 s($,"aZm","aHY",()=>{var q="TextBaseline"
-return A.c([A.G(A.G(A.aq(),q),"Alphabetic"),A.G(A.G(A.aq(),q),"Ideographic")],t.O)})
+return A.c([A.G(A.G(A.ar(),q),"Alphabetic"),A.G(A.G(A.ar(),q),"Ideographic")],t.O)})
 r($,"aZ6","aHL",()=>A.d3().gPR()+"roboto/v32/KFOmCnqEu92Fr1Me4GZLCzYlKw.woff2")
 r($,"aYu","aHj",()=>A.aQl(A.F9(A.F9(A.k3(),"window"),"FinalizationRegistry"),A.c1(new A.arZ())))
 r($,"aZS","aIf",()=>new A.abT())
